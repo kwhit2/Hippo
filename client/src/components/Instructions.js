@@ -20,9 +20,12 @@ export default function Instructions() {
         The web application consists of a Java backend and React frontend.
         <p>
           <b>
-            We need you to write tests for this web application that maximize
+            We need you to write unit tests for this web application that maximize
             test coverage. Feel free to make any changes to the code that you
-            see fit.
+            see fit. 
+          </b>
+          <b>
+          Extra: Feel free to write any other types of tests that you see fit in addition to unit tests.
           </b>
         </p>
         <h3>Backend</h3>
