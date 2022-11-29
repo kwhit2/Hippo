@@ -1,6 +1,6 @@
 ## System Requirements
-- Latest LTS version of Node
-- Java 8
+- [Latest LTS version of Node](https://nodejs.org/en/download/)
+- [Java 8](https://www.java.com/en/download/manual.jsp)
 
 ## Getting Started
 
