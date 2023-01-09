@@ -9,7 +9,7 @@ import java.util.ArrayList;
 
 public class Inventory {
 
-    private List<Item> inventory;
+    private static List<Item> inventory;
 
     public Inventory() {
         inventory = createInventory();
@@ -81,7 +81,7 @@ public class Inventory {
      * @param percent the percent threshold to use in determining items under the given capacity requirement
      * @return a list of items that have a stock that are under a percentage of their max capacity
      */
-    public List<Item> getItemsUnderPercentCapacity(double percent) {
+    public static List<Item> getItemsUnderPercentCapacity(double percent) {
         List<Item> itemsUnderStocked = new ArrayList<>();
         for (Item item : inventory) {
             double percentCapacity = (double) item.getStock() / item.getCapacity();
